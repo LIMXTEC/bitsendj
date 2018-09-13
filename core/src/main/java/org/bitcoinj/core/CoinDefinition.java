@@ -12,6 +12,7 @@ import java.util.Map;
 public class CoinDefinition {
 
     public static final String coinName = "BitSend";
+    public static final String coinNameV2 = "Bitsend";
     public static final String coinTicker = "BSD";
     public static final String coinURIScheme = "bitsend";
     public static final String cryptsyMarketId = "309";
@@ -72,8 +73,8 @@ public class CoinDefinition {
 
     public static final long INSTANTX_FEE = 1000000;
 
-    public static final int PROTOCOL_VERSION = 70082;
-    public static final int MIN_PROTOCOL_VERSION = 70082;
+    public static final int PROTOCOL_VERSION = 70084;
+    public static final int MIN_PROTOCOL_VERSION = 70084;
 
     public static final int BLOCK_CURRENTVERSION = 3;
     public static final int MAX_BLOCK_SIZE = 10000000;
@@ -106,13 +107,10 @@ public class CoinDefinition {
     static public String genesisTxOutBytes = "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9";
 
     static public String[] dnsSeeds = new String[] {
-            "188.68.52.172",
+            "seed.mybitsend.com",
+            "seed1.mybitsend.com",
             "37.120.186.85",
             "37.120.190.76",
-            "213.136.80.93",
-            "213.136.86.202",
-            "213.136.86.205",
-            "213.136.86.207",
     };
 
     public static int minBroadcastConnections = 0;
